@@ -1,0 +1,25 @@
+//
+// Utilities
+//
+.indent { padding-left: 10px !important; }
+.no-quotes {
+  &::before { content: none; }
+  &::after { content: none; }
+}
+.p0 { padding: 0 !important; }
+.fa-inverse { color: $color-white; }
+.fa-stack { line-height: 2em; }
+.fa-stack-1x { line-height: inherit; }
+.fa-stack-2x { font-size: 2em; }
+
+.float-left { float: left !important; }
+.float-right { float: right !important; }
+.font-weight-bold { font-weight: bold; }
+.text-center { text-align: center; }
+.text-muted { color: $text-muted; }
+// .text-nowrap { white-space: nowrap; }
+.text-left { text-align: left !important; }
+.text-right { text-align: right !important; }
+.text-error { color: $error-fg; }
+.text-info { color: $info-fg; }
+.text-warn { color: $warn-fg; }
